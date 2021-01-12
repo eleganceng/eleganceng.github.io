@@ -152,6 +152,55 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-linux文件与目录管理" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <hr>
+<p>title: linux文件与目录管理<br>date: 2021-01-12 15:12:23<br>tags:<br>1.绝对路径：一定由根目录/写起；相对路径：不由/写起，而是由相对当前目录写起；<br>2.特殊目录由：.、..、-、<del>、</del>accoumt需要注意；<br>3.与目录相关的命令有：cd、mkdir、rmdir、pwd等重要命令；<br>4.rmdir仅能删除空目录，要删除非空目录需要使用【rm -r】命令；<br>5.用户能使用的命令是依据PATH变量所规定的目录去查找的；<br>6.ls可以查看文件的属性，尤其-d、-a、-l等选项特别重要；<br>7.文件的复制、删除、移动可以分别使用：cp、rm、mv等命令来操作；<br>8.检查文件的内容（读文件）可使用的命令包括有：cat、tac、nl、more、less、head、tail、od等；<br>9.cat -n与nl均可显示行号，但默认情况下，空白行会不会编号并不相同,nl空白行不显示行号；<br>10.touch的母的在修改文件的时间参数，但亦可以用来建立空文件；<br>11.一个文件记录的时间参数有三种，分别是读取时间（access time）、状态时间（status time）、修改时间（modification time），ls默认显示的是mtime；<br>12.除了传统的rwx权限之外，在ext2、ext3、ext4、xfs文件系统中，还可以使用chattr与lsattr设置及观察隐藏文件属性，常见的有只能新增数据的+a与完全不能修改文件的+i属性；<br>13.新建文件/目录时，文件的默认权限使用umask来规范，默认目录的完全权限为drwxrwxrwx，文件则为-rw-rw-rw-；<br>14.文件具有SUID的特殊权限时，代表当用户执行此二进制程序时，在执行过程中用户会暂时具有程序拥有者的权限；<br>15.目录具有SGID的特殊权限时，代表用户在这个目录下面新建的文件的用户组都会与该目录下的组名相同；<br>16.目录具有SBIT的特殊权限时，代表在该目录下用户建立的文件只有自己与root能够删除；<br>17.观察文件的类型可以使用file命令来观察；<br>18.查找文件的完整文件名可以使用which或type，这两个命令都是通过PATH变量来查找文件名；<br>19.查找文件的完整文件名可以使用whereis找特定目录或locate到数据库去查找，而不是实际查找文件系统；<br>20.利用find可以加入许多选项来直接查询文件系统，以活的自己想要知道的文件；</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2021/01/12/linux%E6%96%87%E4%BB%B6%E4%B8%8E%E7%9B%AE%E5%BD%95%E7%AE%A1%E7%90%86/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-情商课学习" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
